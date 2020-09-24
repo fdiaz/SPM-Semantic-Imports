@@ -11,7 +11,9 @@ let package = Package(
   products: [
     .executable(name: "Example", targets: ["Example"]),
   ],
-  dependencies: [],
+  dependencies: [
+    .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("0.50300.0")),
+  ],
   targets: [
     .target(
       name: "Example",
@@ -22,7 +24,10 @@ let package = Package(
 
     .target(
       name: "SwiftExample",
-      dependencies: ["ObjcDependency"]),
+      dependencies: ["ObjcDependency", "SwiftSyntax"]),
+    .testTarget(
+      name: "SwiftExampleTests",
+      dependencies: ["SwiftExample"]),
 
     .target(
       name: "ObjcExample",
