@@ -1,5 +1,5 @@
 #import "SomeObjc.h"
-@import ObjcDependency;
+#import "SomeDep.h"
 
 @implementation SomeObjc
 
