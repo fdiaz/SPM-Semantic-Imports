@@ -40,4 +40,4 @@ This has not worked.
 ---
 ## Update: How to fix this
 
-[This PR](https://github.com/fdiaz/SPM-Semantic-Imports/pull/20) exemplifies how to fix this problem
+[This PR](https://github.com/fdiaz/SPM-Semantic-Imports/pull/2) exemplifies how to fix this problem
