@@ -36,3 +36,8 @@ CLANG_ENABLE_MODULES = YES;
 And then running `swift package generate-xcodeproj --xcconfig-overrides Settings.xcconfig`.
 
 This has not worked.
+
+---
+## Update: How to fix this
+
+[This PR](https://github.com/fdiaz/SPM-Semantic-Imports/pull/20 exemplifies how to fix this problem
